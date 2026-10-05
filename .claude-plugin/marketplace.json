@@ -11,7 +11,7 @@
     {
       "name": "bad-apple",
       "source": { "source": "github", "repo": "narze/bad-apple-claude-mod" },
-      "description": "Plays Bad Apple!! above the prompt or in a pane, with sound (build its assets after install)"
+      "description": "Plays Bad Apple!! above the prompt or in a pane, with sound (the first run builds its assets)"
     }
   ]
 }
