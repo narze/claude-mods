@@ -1,0 +1,17 @@
+{
+  "name": "narze-mods",
+  "owner": { "name": "narze" },
+  "description": "narze's Claude Code mods: games and toys that run inside the terminal",
+  "plugins": [
+    {
+      "name": "flappy-claude",
+      "source": { "source": "github", "repo": "narze/flappy-claude-mod" },
+      "description": "A Flappy Bird-like game above the Claude Code prompt"
+    },
+    {
+      "name": "bad-apple",
+      "source": { "source": "github", "repo": "narze/bad-apple-claude-mod" },
+      "description": "Plays Bad Apple!! above the prompt or in a pane, with sound (build its assets after install)"
+    }
+  ]
+}
