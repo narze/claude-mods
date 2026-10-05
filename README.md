@@ -28,7 +28,13 @@ Get new versions with `claude plugin marketplace update narze-mods`, then `claud
 | `flappy-claude` | A Flappy Bird-like game above the prompt: fly the Claude mascot through the pipes. `/flappy-claude` to play. | [narze/flappy-claude-mod](https://github.com/narze/flappy-claude-mod) |
 | `bad-apple` | Plays Bad Apple!! above the prompt or in a pane, with sound. `/bad-apple` to play. | [narze/bad-apple-claude-mod](https://github.com/narze/bad-apple-claude-mod) |
 
-**bad-apple needs one more step:** its video frames and song are copyrighted, so they are not in its repo. After you install it, build them once with the script in the installed copy (`scripts/build-assets.sh`; needs `ffmpeg`, `python3` and `yt-dlp` or `uv`). `/bad-apple` tells you the path when the assets are missing.
+**bad-apple needs one more step:** its video frames and song are copyrighted, so they are not in its repo. After you install it, build them once (needs `ffmpeg`, `python3` and `yt-dlp` or `uv`):
+
+```sh
+~/.claude/plugins/cache/narze-mods/bad-apple/*/scripts/build-assets.sh
+```
+
+`/bad-apple` shows the exact path when the assets are missing. A new version installs to a new folder, so build again after an update.
 
 ## Add a mod
 
